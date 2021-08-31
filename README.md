@@ -1,8 +1,8 @@
-#welcome-discord
+# welcome-discord
 
 Install package:
 
-> npm i welcome-discord
+```npm i welcome-discord```
 
 Demo:
 

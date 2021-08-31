@@ -1,6 +1,6 @@
 {
     "name": "welcome-discord",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Create banner welcome for new discoder",
     "main": "index.js",
     "scripts": {
@@ -18,5 +18,10 @@
     "homepage": "hhttps://github.com/hypnguyen1209/welcome-discord",
     "dependencies": {
         "canvas": "^2.8.0"
-    }
+    },
+    "keywords": [
+        "discord",
+        "discord.js",
+        "discord-bot"
+    ]
 }
