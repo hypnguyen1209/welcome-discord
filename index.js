@@ -51,22 +51,27 @@ class WelcomeDiscord {
         this.discriminator = '0000'
         this.count = 0
     }
+
     setAvatar(avt) {
         this.avt = avt
         return this
     }
+
     setUsername(username) {
         this.username = username
         return this
     }
+
     setDiscriminator(discriminator) {
         this.discriminator = discriminator
         return this
     }
+
     setCount(count) {
         this.count = count
         return this
     }
+    
     async build() {
         let image = await draw(this.avt, this.username, this.discriminator, this.count)
         const buff = new Buffer.from(image.split(",")[1], 'base64')
