@@ -1,0 +1,22 @@
+{
+    "name": "welcome-discord",
+    "version": "1.0.0",
+    "description": "Create banner welcome for new discoder",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "hypnguyen1209",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hypnguyen1209/welcome-discord.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hypnguyen1209/welcome-discord.git"
+    },
+    "homepage": "hhttps://github.com/hypnguyen1209/welcome-discord.git",
+    "dependencies": {
+        "canvas": "^2.8.0"
+    }
+}
